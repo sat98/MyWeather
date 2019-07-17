@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/good_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/temp"
+        android:text="00"
+        android:textSize="50sp"
+        android:textColor="#D9E5D6"
+        android:layout_toLeftOf="@id/degree"
+        android:layout_marginTop="40dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/degree"
+        android:text="O"
+        android:textSize="20sp"
+        android:textColor="#D9E5D6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/celcius"
+        android:text="C"
+        android:textSize="50sp"
+        android:textColor="#D9E5D6"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@id/degree"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOCATION"
+        android:id="@+id/location"
+        android:textColor="#D9E5D6"
+        android:textSize="30sp"
+        android:layout_below="@id/degree"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COUNTRY"
+        android:id="@+id/country"
+        android:textSize="30sp"
+        android:textColor="#D9E5D6"
+        android:layout_below="@id/location"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WEATHER"
+        android:id="@+id/weather"
+        android:textColor="#D9E5D6"
+        android:textSize="45sp"
+        android:layout_below="@id/country"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="70dp"
+        />
+
+
+
+
+</RelativeLayout>
+
+
+
